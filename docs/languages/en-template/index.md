@@ -63,14 +63,3 @@ TL;DR If you tick the server browser box in "Host Server" your IP will be stored
 ## Additional Info
 The in-game console will forward your commands directly to the in-game source console backend.<br/>
 SQVM prints are also enabled, and the hooks will attempt to load game vscripts out of `platform\` relative from the game executable before falling back to the SearchPath's defined in GameInfo.txt or the in-memory VPK structures.
-
-## Languages
- - [français](languages/fr)
-
-### Can I translate to my native language?
-Yes! See: [Translating](languages/howtotranslate)
-
-## Translations by
--  French: `Archimatt#0731`
-
-
