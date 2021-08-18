@@ -22,7 +22,7 @@ Pergi ke [Cara Memasang.](installation/install)
 ---
 ## Tolong! Saya Terus Ngecrash!
 
-Lihatlah: [FAQ #Apakah ada bug?](FAQ/faq#apakah-ada-bug)
+Lihatlah: [FAQ #Apakah ada bug?](faq/faq#apakah-ada-bug)
 
 ---
 ## Menghosting Server
@@ -64,6 +64,3 @@ TL;DR Jika kamu centang kotak centang peramban server di "Host Server" IP kamu a
 Console dalam game akan mengirim perintah mu langsung ke backend console source dalam game.<br/>
 Cetakan SQVM juga nyala, dan kaitannya akan mencoba untuk memuat vsript game dari 'platform\' relatif dari game yang dapat dieksekusi sebelum kembali ke tempat cari yang ditentukan dalam GameInfo.txt atau struktur VPK dalam memorirelative from the game executable before falling back to the SearchPath's defined in GameInfo.txt or the in-memory VPK structures.
 
-## Bahasa
- - [français](languages/fr)
- - [indonesia](languages/id)
