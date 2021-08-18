@@ -66,11 +66,13 @@ SQVM prints are also enabled, and the hooks will attempt to load game vscripts o
 
 ## Languages
  - [français](languages/fr)
+ - [Bahasa Indonesia](languages/id)
 
 ### Can I translate to my native language?
 Yes! See: [Translating](languages/howtotranslate)
 
 ## Translations by
 -  French: `Archimatt#0731`
+-  Indonesian: `Rimuru#6044`
 
 
