@@ -15,7 +15,7 @@
 ### 1. Create Directory
 Create a Directory for your files. It should be in a place with at least 45GB free. You can now move your apex build to this folder. Make sure to keep an unmodified backup just in case.
 
-### 3. Copy Binaries
+### 2. Copy Binaries
 Next you should obtain the r5_detours binaries you can do that through the realeases section of the linked repo or by [building it yourself.](../installation/build) Once you have obtained `r5detours.dll` `dedicated.dll` and `launcher.exe` copy them to the root of your install folder. Your install directory should look as follows. Some files have been ommited for brevity. See [Full Directory Tree](../installation/tree) if you are confused.
 ```
 ├───audio
@@ -29,7 +29,7 @@ Next you should obtain the r5_detours binaries you can do that through the reale
 ├───r5detours.dll <-- 
 └───... 
 ```
-### 4. Copy Scripts
+### 3. Copy Scripts
 Now you can move on to copying the scripts. The contents of scripts_r5 needs to go into the scripts folder which itself is in the platform folder. If you do not have a scripts folder you should create it. 
 
 ```
@@ -73,9 +73,10 @@ platform
     ...
 ```
 
-### 5. Additional Maps
+### 4. Additional Maps
 
-At this point you have a working install, if you would like to install additional maps you should do that now. Simply follow the directions from the readme contained inside the map zip.
+At this point you have a working install, if you would like to install additional maps you should do that now.<br/> 
+Simply follow the directions from the readme contained inside the map zip.
 
 ## Running and Usage
 
