@@ -2,6 +2,8 @@
 
 ## Here is a list of console commands.
 
+TO-DO: add descriptions.
+
 ```
 _setClassVarServer
 -ability
