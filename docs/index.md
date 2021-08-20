@@ -12,7 +12,8 @@ Detours-based Visual Studio project for hooking the game engine.
 ---
 ## Console and Server Browser
 To use the in-game server broswer, press `F10`!<br/>
-You can also open a developer console window by pressing `~` or the `insert` key.
+You can also open a developer console window by pressing `~` or the `insert` key.<br/>
+Also see: [console commands](installation/commands).
 
 ---
 ## Installation
@@ -22,7 +23,8 @@ Go to [Installation.](installation/install)
 ---
 ## Help! I Keep Crashing!
 
-See: [FAQ #Are there bugs?](faq/faq#are-there-bugs)
+First, see: [FAQ #Are there bugs?](faq/faq#are-there-bugs)<br/>
+You can also join our [Discord](https://discord.com/invite/jqMkUdXrBr)
 
 ---
 ## Hosting a server
