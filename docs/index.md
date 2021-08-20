@@ -66,11 +66,13 @@ SQVM prints are also enabled, and the hooks will attempt to load game vscripts o
 
 ## Languages
  - [français](languages/fr)
+ - [Português](languages/pt-br)
 
 ### Can I translate to my native language?
 Yes! See: [Translating](languages/howtotranslate)
 
 ## Translations by
 -  French: `Archimatt#0731`
+-  neefloW: "neefloW#1835"
 
 
