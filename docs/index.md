@@ -2,6 +2,9 @@
 
 ## R5Reloaded
 
+![R5Reloaded Logo](images\logos\R5Reloaded_128x128.png)
+![R5Reloaded Logo](..\docs\images\logos\R5Reloaded_128x128.png)
+
 Detours-based Visual Studio project for hooking the game engine.
 
 ---
