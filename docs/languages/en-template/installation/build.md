@@ -1,14 +1,14 @@
-# **Building the binaries yourself**
+# **自己构建二进制文件**。
 
-## To build the binaries yourself you mush have [Visual Studio 2019](https://visualstudio.microsoft.com/)
+## 要自己构建二进制文件，你必须有[Visual Studio 2019](https://visualstudio.microsoft.com/)
 
-### 1. Clone the repo locally
-Use `git clone https://github.com/Mauler125/detours_r5` to clone the repository locally.
+### 1. 克隆本地的版本
+使用`git clone https://github.com/Mauler125/detours_r5`在本地克隆版本库。
 
-### 2. Compiling
-Now open the `apex.sln` inside the repo folder.<br/>
-You should now be in Visual Studio.<br/>
-Next, change to building the release version; do this by changing the word `Debug` at the top of your window to `Release`.<br/>
-Now build the project by pressing `F6` or selecting, Build > Build Solution.
+### 2. 编译
+现在打开repo文件夹中的`apex.sln`。
+你现在应该在Visual Studio中了。
+接下来，改成构建发布版本；通过将窗口顶部的 "Debug "改为 "Release "来实现。
+现在按`F6`或选择，Build > Build Solution来构建项目。
 
-### Your built binaries will now be in `bin\Release\` 
+###你建立的二进制文件现在将在`bin\Release\中。
