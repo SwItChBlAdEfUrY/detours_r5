@@ -17,7 +17,7 @@
 ---
 ## 安装
 
-进入[安装](install/install)
+进入[安装](installation/install)
 
 ---
 ## Help! 我一直在崩溃!
