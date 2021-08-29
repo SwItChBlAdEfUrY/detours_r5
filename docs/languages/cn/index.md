@@ -7,7 +7,7 @@
 ---
 ## 其他语言
 
-[语言](#languages)
+[语言](#其他语言)
 
 ---
 ## 控制台和服务器浏览器
@@ -63,3 +63,8 @@ TL;DR 如果你在 "托管服务器 "中勾选了服务器浏览器的复选框�
 ## 其他信息
 游戏中的控制台将直接把你的命令转发给游戏中的源控制台后台。<br/>
 SQVM打印也被启用，钩子将尝试从`platform\`相对于游戏可执行文件加载游戏vscripts，然后再返回到GameInfo.txt中定义的SearchPath's或内存中的VPK结构。
+
+## 其他语言
+ - [français](languages/fr)
+ - [Bahasa Indonesia](languages/id)
+ - [Português](languages/pt-br)
