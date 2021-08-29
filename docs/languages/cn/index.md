@@ -27,7 +27,7 @@
 ---
 ## 托管一个服务器
 
-请参阅[托管服务器](services/hosting)
+请参阅[托管服务器](servers/hosting)
 
 ---
 ## 常见问题
