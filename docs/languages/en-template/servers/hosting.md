@@ -1,28 +1,27 @@
-# **托管一个服务器**
+# **Hosting A Server**
 
-### **通知。目前没有办法托管一个专用服务器。
+### **Notice: At the moment there is no way to host a dedicated server.**
 
 ---
 
-## 要托管一个服务器，你必须具备一些条件。
-- 一个R5Reloaded的工作拷贝。
-- 一个稳定的网络连接。
-- 在你的路由器上进行端口转发的知识和能力。
+## To host a server you must have a few things.
+- A working copy of R5Reloaded.
+- A stable internet connection.
+- Knowledge and the ability to port forward on your router.
 
-## 1. 端口转发
-进入你的路由器设置，添加一个端口转发规则，你将需要添加范围`37015-37020`，使用`UDP`，如果你有一个UDP和TCP的选项，使用它。
-如果你有问题，你可能还想设置你的windows防火墙。
-[看看这儿](https://canyouseeme.org/)和[端口转发教程](https://portforward.com/router.htm)也可能有用。
+## 1. Port Forwarding
+Go to your routers settings and add a port forwarding rule, you will need to add the range `37015-37020` using `UDP` if you have an option for both UDP and TCP, use that.<br/>
+You may also want to open up your windows firewall if you're having trouble.<br/>
+[Canyouseeme](https://canyouseeme.org/) and [Port forwarding tutorial](https://portforward.com/router.htm) may also be useful.
 
-## 2. 启动一个服务器
-打开R5Reloaded<br/> 
-如果你想托管一个tdm，在控制台使用`launchplaylist custom_tdm`命令。
-否则，按`F10'打开服务器浏览器，并切换到`托管服务器'选项卡。<br/> 接下来，填写任何适当的信息；如果你想的话，添加一个密码，如果你想让这个服务器出现在服务器浏览器中，请勾上`Broadcast Server to Server Browser`。
-你还应该选择你想启动服务器的地图。
-请看。[我可以玩新的地图吗？](./faq/faq#我可以玩新的地图吗)<br/>
-现在你可以通过按F10打开服务器浏览器，并导航到 "主机服务器 "标签来确认你的服务器已经启动并运行。你应该可以在 "Reload Scripts "按钮上方看到你的服务器的状态。
+## 2. Starting a server
+Open R5Reloaded<br/> 
+If you would like to host a tdm use the command `launchplaylist custom_tdm` in the console.
+Otherwise, open the server browser by presing `F10`, and change to the `Host Server` tab.<br/> Next, fill out any appropriate information; add a password if you want, and mark the `Broadcast server to server browser` box if you want this server to appear in the server browser.<br/>
+You should also selct the map you would like to start the server in.<br/>
+See: [Can I play new Apex maps?](../faq/faq#can-i-play-new-apex-maps)<br/>
+You can now confirm your server is up and running by pressing `F10` to open the server browser, and navigating to the `Host Server` tab. You should be able to see the status of your server above the `Reload Scripts` button.
 
 
-###你现在应该有一个Apex服务器在运行了!
-
+### You should now have an Apex server up and running!
 

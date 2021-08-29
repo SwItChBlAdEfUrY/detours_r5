@@ -1,78 +1,81 @@
-# **常见问题.**
+# **FAQ.**
 
-- [我如何打开开发者控制台?](#我如何打开开发者控制台)
-- [我可以在主机上玩吗?](#我可以在主机上玩吗)
-- [我可以使用游戏中的皮肤吗?](#我可以使用游戏中的皮肤吗)
-- [我可以使用我的第十赛季文件吗?](#我可以使用我的第十赛季文件吗)
-- [我可以用这个项目做点什么吗?](#我可以用这个项目做点什么吗)
-- [如何正确托管服务器?](#如何正确托管服务器)
-- [为什么有些角色无法使用?](#为什么有些角色无法使用)
-- [我可以玩单或双排吗?](#我可以玩单或双排吗)
-- [我可以玩新的地图吗?](#我可以玩新的地图吗)
-- [什么是封号风险?](#什么是封号风险)
-- [是否有漏洞?](#是否有漏洞)
-- [我可以为它做贡献吗?](#我可以为它做贡献吗)
-- [我可以独自在服务器上玩吗?](#我可以独自在服务器上玩吗)
-- [为什么我在连接到服务器的时候会崩溃?](#为什么我在连接到服务器的时候会崩溃)
+- [How do I open the Developer console?](#how-do-i-open-the-developer-console)
+- [Can I play on Console?](#can-i-play-on-console)
+- [Can I use in game cosmetics?](#can-i-use-in-game-cosmetics)
+- [Can I use my Season 10 Apex files?](#can-i-use-my-season-10-apex-files)
+- [What can I do with this project?](#what-can-i-do-with-this-project)
+- [How do you properly host servers?](#how-do-you-properly-host-servers)
+- [Why are some characters unavailable?](#why-are-some-characters-unavailable)
+- [Can I play solos-duos?](#can-i-play-solos-duos)
+- [Can I play new Apex maps?](#can-i-play-new-apex-maps)
+- [What are the ban risks?](#what-are-the-ban-risks)
+- [Are there bugs?](#are-there-bugs)
+- [Can I contribute?](#can-i-contribute)
+- [Can I play alone on a server?](#can-i-play-alone-on-a-server)
+- [Why do I crash when connecting to a Server?](#why-do-i-crash-when-connecting-to-a-server)
 
-## 我如何打开开发者控制台?
-在游戏中，你可以按`~`或`insert`键来打开控制台。
+## How do I open the developer console?
+When In-game you can press `~` or the `insert` key to open the console.
 
-## 我可以在主机上玩吗?
-**不行**，R5Reloaded只适用于PC。此外，你不能邀请你的主机朋友到R5Reloaded大厅。
+## Can I play on Console?
+**No**, R5Reloaded is PC only. Additionally, you cannot invite your console friends to an R5Reloaded lobby.
 
-## 我可以使用游戏中的皮肤吗?
-**不行**, 游戏中的皮肤已被禁用，并不会解禁。如果你想要游戏内的皮肤，你应该通过购买它们来支持重生工作室。
+## Can I use in game cosmetics?
+**No**, In-game cosmetics are disabled and will stay disabled. If you want in-game cosmetics you should support Respawn by buying them.
 
-## 我可以使用我的第十赛季文件吗?
-**不行**，在任何情况下，你都不应该试图用第10赛季的Apex文件来运行它。这样做是行不通的，Easy Anti-Cheat会阻止它，甚至可能会封你号! 请不要尝试。我们只支持第三赛季的Apex构建文件，构建字符串为`R5pc_r5launch_N1094_CL456479_2019_10_30_05_20_PM`。
+## Can I use my Season 10 Apex files?
+**NO**, Under absolutely no circumstances should you attempt to run this with Season 10 Apex files. Doing this won't work, Easy Anti-Cheat will block it or may even ban you! Don't even try it. We only support the Season 3 Apex build files with the build string `R5pc_r5launch_N1094_CL456479_2019_10_30_05_20_PM`.
 
-## 我可以用这个项目做点什么吗?
-**当然** 你可以创建你自己的大厅，单独或与你的朋友一起玩。我们还有一个服务器浏览器，你可以很容易地找到公共服务器。
-## 如何正确托管服务器?
-查看: [托管服务器](servers/hosting)
+## What can I do with this project?
+**Yes!** You can create your own lobbies to play solo or with your friends. There is also a server browser so you can eaisly find public servers.
 
-## 为什么有些角色无法使用?
-有些角色目前还不能完全发挥作用。例如，开发中版本的侵蚀使用了《泰坦陨落2》中的电子烟雾手榴弹，以使他的大招发挥作用。
+## How do you properly host servers?
+See: [Hosting a Server](servers/hosting)
 
-## 我可以玩单或双排吗?
-**可以!** 由你决定。你甚至可以在一个队里有20名队员。
-<br/>See: [托管服务器](servers/hosting)
+## Why are some characters unavailable?
+Some characters don't work completely at the moment. For example Caustic in the in-dev version uses the Electric Smoke grenade from Titanfall 2 for his ultimate to work.
 
-## 我可以玩新的地图吗?
-**不能** 目前可玩的地图列表:
-- 国王峡谷 第0季
-- 国王峡谷 第2季
-- 国王峡谷(夜间)
-- 世界边缘
-- 世界边缘(夜间）
+## Can I play solos-duos?
+**Yes!** That's up to you. You could even have 20 players in 1 squad.
+<br/>See: [Hosting a server](servers/hosting)
 
-我们目前无法加载新的地图，可能会有变化。
+## Can I play new Apex maps?
+**No,** Current playable map list:
+- Kings Canyon Season 0
+- Kings Canyon Season 2
+- Kings Canyon After Dark
+- World's Edge
+- World's Edge After Dark
 
-## 什么是封号风险?
-我们没有一个明确的答案，但我们的项目除了使用你的橘子账户检索你的ID外，并不干扰APEX官方服务器。请自行承担风险。
-我们建议不要用你的主账户来做这件事。你需要一个有Apex英雄在库中的橘子账户。我们还建议关闭自动更新功能。
+We are unable to load new maps at the moment, subject to change.
 
-## 是否有漏洞?
-**是的**, 有大量的bug仍然存在，你肯定会崩溃的。你可以关注我们的[Trello](https://trello.com/b/ymr4R3j9/apexmod-s3n1094)页面，以跟踪目前已经报告和修复的错误。
-<br/>另见: [为什么我在连接到服务器的时候会崩溃?](#why-do-i-crash-when-connecting-to-a-server)
+## What are the ban risks?
+We don't have a definitive answer but our project doesn't interfere with the apex official servers aside from using your origin account to retrieve the ingame name. Proceed at your own risk.
 
-## 我可以为它做贡献吗?
-**是的！** 每个人都可以，请在我们的github项目上使用pull requests和questions，我们会感激任何向我们提供的帮助！
+We suggest not using your main account for this. You need an origin account with Apex Legends in the library. We also suggest to turn off Auto-Update.
 
-## 我可以独自在服务器上玩吗?
-**是的**，你甚至可以禁用毒圈来练习某些地图!
-<br/>另见: [托管服务器](servers/hosting)
+## Are there bugs?
+**Yes**, There is shit-ton of bugs still persisting YOU WILL CRASH GURANTEED. You can follow our [Trello](https://trello.com/b/ymr4R3j9/apexmod-s3n1094) page for tracking what bugs have been reported and fixed at this time.
+<br/>See Also: [Why do I crash when connecting to a Server?](#why-do-i-crash-when-connecting-to-a-server)
 
-## 为什么我在连接到服务器的时候会崩溃?
-某些情况下会导致这种情况。
-你能连接到你自己的本地服务器吗？
-你自己的构建没有被破坏，这已经很不错了。
+## Can I contribute?
+**Yes!** Everyone can, please open pull requests and issues on our github projects we would love any help we could get!
 
-你是否重复按了2次连接按钮？
-如果是，这也会崩溃，因为游戏不希望这样。如果第一次没有成功，那就等到游戏出现错误代码的提示。
+## Can I play alone on a server?
+**Yes**, you can even disable the ring to practice certain maps!
+<br/>See: [Hosting a server](servers/hosting)
 
-你是否在尝试连接时没有关闭出现的错误代码的提示？
-在再次尝试连接之前关闭它，否则你会再次崩溃。
+## Why do I crash when connecting to a Server?
+Certain scenarios cause this.
+Can you connect to your own local server?
+Cool your build isn't corrupted that's already good.
 
-目前也只能通过主菜单连接。
+Did you spam the Connect button like 2 times?
+If yes this will also crash because the game does not expect that. If it doesn't work the first time wait till a prompt comes up with an error code from the game.
+
+Did you try to connect and didn't close a prompt that came up giving you an error code?
+
+Close it before trying to connect again else you will crash once again
+
+Also only connect through main menu.

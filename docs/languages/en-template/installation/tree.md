@@ -1,6 +1,6 @@
-# **APEX的安装的文件结构**
+# **File structure of an apex install**
 
-###  一个APEX的安装的文件结构示例。
+### Example of the file structure of an apex install.
 
 ```
 |   amd_ags_x64.dll
