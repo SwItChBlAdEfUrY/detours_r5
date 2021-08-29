@@ -19,7 +19,7 @@
 如果你想托管一个tdm，在控制台使用`launchplaylist custom_tdm`命令。
 否则，按`F10'打开服务器浏览器，并切换到`托管服务器'选项卡。<br/> 接下来，填写任何适当的信息；如果你想的话，添加一个密码，如果你想让这个服务器出现在服务器浏览器中，请勾上`Broadcast Server to Server Browser`。
 你还应该选择你想启动服务器的地图。
-请看。[我可以玩新的地图吗？](./faq/faq#我可以玩新的地图吗)<br/>
+请看。[我可以玩新的地图吗？](https://200x031x.github.io/r5_Documentation/languages/cn/faq/faq#%E6%88%91%E5%8F%AF%E4%BB%A5%E7%8E%A9%E6%96%B0%E7%9A%84%E5%9C%B0%E5%9B%BE%E5%90%97)<br/>
 现在你可以通过按F10打开服务器浏览器，并导航到 "主机服务器 "标签来确认你的服务器已经启动并运行。你应该可以在 "Reload Scripts "按钮上方看到你的服务器的状态。
 
 
