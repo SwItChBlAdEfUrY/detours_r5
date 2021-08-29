@@ -1,65 +1,65 @@
-# **Documentation**
+# **文件**
 
 ## R5Reloaded
 
-Detours-based Visual Studio project for hooking the game engine.
+基于Detours的Visual Studio项目，用于挂接游戏引擎。
 
 ---
-## Other Languages
+##其他语言
 
-[Languages](#languages)
-
----
-## Console and Server Browser
-To use the in-game server broswer, press `F10`!<br/>
-You can also open a developer console window by pressing `~` or the `insert` key.
+[语言](#languages)
 
 ---
-## Installation
-
-Go to [Installation.](installation/install)
-
----
-## Help! I Keep Crashing!
-
-See: [FAQ #Are there bugs?](faq/faq#are-there-bugs)
+## 控制台和服务器浏览器
+要使用游戏中的服务器浏览器，请按`F10`！<br/>。
+你也可以通过按`~`或`insert`键来打开一个开发者控制台窗口。
 
 ---
-## Hosting a server
+## 安装
 
-See: [Hosting a server.](servers/hosting)
-
----
-## Frequently Asked Questions
-
-Go to [FAQ.](faq/faq)
+进入[安装](install/install)
 
 ---
+## Help! 我一直在崩溃!
 
-## Important Notices
-*  This is not a cheat or hack. Do not attempt to use this on the latest version of the game.
-*   When using R5Net you will stream your IP to our database which will be stored untill you stop hosting your server. This is required to connect to others' servers.
+见[FAQ #是否有漏洞?](faq/faq#are- there-bugs)
 
-## R5Net DISCLAIMER
+---
+## 托管一个服务器
 
-When hosting to the Server Browser (R5Net) you will stream your IP to that database which will be stored there till you stop hosting the server.
+请参阅[托管服务器](services/hosting)
 
-This is NEEDED so you can even connect to other players servers.
+---
+## 常见问题
 
-There is a Checkbox that is by default disabled that allows you to stream to the server browser.
+转到[常见问题](faq/faq)
 
-If you tick that and don't assign a password your server will be visible in the server browser.
+---
 
-But if you assign a password you will get a token as a response and a password and it won't be visible in the server browser.
+## 重要通知
+*这不是一个作弊或黑客行为。不要试图在最新版本的游戏中使用这个。
+* 当使用R5Net时，你将把你的IP流向我们的数据库，它将被储存，直到你停止托管你的服务器。这是连接到其他人的服务器所必需的。
 
-People can join with that over the "Private Servers" button.
+## R5Net免责声明
 
-If you do that your IP will still be stored on the database till you stop hosting the server to ensure people can connect.
+当托管到服务器浏览器(R5Net)时，你将把你的IP流向该数据库，该数据库将储存到你停止托管服务器为止。
 
-Alternative way is just to host the server without ticking the server browser checkbox and just give the people you want to connect the IP including the port.
+这是必要的，这样你甚至可以连接到其他玩家的服务器。
 
-TL;DR If you tick the server browser box in "Host Server" your IP will be stored till you close the server.
+有一个复选框在默认情况下是禁用的，它允许你流向服务器浏览器。
 
-## Additional Info
-The in-game console will forward your commands directly to the in-game source console backend.<br/>
-SQVM prints are also enabled, and the hooks will attempt to load game vscripts out of `platform\` relative from the game executable before falling back to the SearchPath's defined in GameInfo.txt or the in-memory VPK structures.
+如果你勾选该复选框并且不指定密码，你的服务器将在服务器浏览器中可见。
+
+但是，如果你指定了密码，你将得到一个令牌作为响应和密码，它在服务器浏览器中是不可见的。
+
+人们可以通过 "Private servers "按钮来加入。
+
+如果你这样做，你的IP仍然会被保存在数据库中，直到你停止托管服务器，以确保人们可以连接。
+
+另一种方法是不勾选服务器浏览器的复选框而直接托管服务器，只给你想连接的人提供IP，包括端口。
+
+TL;DR 如果你在 "托管服务器 "中勾选了服务器浏览器的复选框，你的IP将被保存到你关闭服务器为止。
+
+## 其他信息
+游戏中的控制台将直接把你的命令转发给游戏中的源控制台后台。<br/>
+SQVM打印也被启用，钩子将尝试从`platform\`相对于游戏可执行文件加载游戏vscripts，然后再返回到GameInfo.txt中定义的SearchPath's或内存中的VPK结构。
