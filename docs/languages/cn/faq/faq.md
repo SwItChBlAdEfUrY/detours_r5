@@ -55,7 +55,7 @@
 
 ## 是否有漏洞?
 **是的**, 有大量的bug仍然存在，你肯定会崩溃的。你可以关注我们的[Trello](https://trello.com/b/ymr4R3j9/apexmod-s3n1094)页面，以跟踪目前已经报告和修复的错误。
-<br/>另见: [为什么我在连接到服务器的时候会崩溃?](#why-do-i-crash-when-connecting-to-a-server)
+<br/>另见: [为什么我在连接到服务器的时候会崩溃?](#为什么我在连接到服务器的时候会崩溃)
 
 ## 我可以为它做贡献吗?
 **是的！** 每个人都可以，请在我们的github项目上使用pull requests和questions，我们会感激任何向我们提供的帮助！
