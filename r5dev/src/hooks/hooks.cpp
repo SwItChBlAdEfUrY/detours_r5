@@ -26,13 +26,14 @@ void Hooks::InstallHooks()
 	// Hook Game Functions
 	MH_CreateHook(addr_CHLClient_FrameStageNotify, &Hooks::FrameStageNotify, reinterpret_cast<void**>(&originalFrameStageNotify));
 	MH_CreateHook(addr_CVEngineServer_IsPersistenceDataAvailable, &Hooks::IsPersistenceDataAvailable, reinterpret_cast<void**>(&originalIsPersistenceDataAvailable));
+	MH_CreateHook(addr_CServer_ConnectClient, &Hooks::ConnectClient, reinterpret_cast<void**>(&originalConnectClient));
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Hook Netchan functions
 	MH_CreateHook(addr_NET_PrintFunc, &Hooks::NET_PrintFunc, reinterpret_cast<void**>(&originalNET_PrintFunc));
 	MH_CreateHook(addr_NET_ReceiveDatagram, &Hooks::NET_ReceiveDatagram, reinterpret_cast<void**>(&originalNET_ReceiveDatagram));
 	MH_CreateHook(addr_NET_SendDatagram, &Hooks::NET_SendDatagram, reinterpret_cast<void**>(&originalNET_SendDatagram));
-	MH_CreateHook(addr_NetChan_Shutdown, &Hooks::NetChanShutdown, reinterpret_cast<void**>(&originalNetChanShutDown));
+	MH_CreateHook(addr_NetChan_Shutdown, &Hooks::NetChan_Shutdown, reinterpret_cast<void**>(&originalNetChan_ShutDown));
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Hook ConVar | ConCommand functions.
@@ -46,6 +47,7 @@ void Hooks::InstallHooks()
 	///////////////////////////////////////////////////////////////////////////////
 	// Hook Utility functions
 	MH_CreateHook(addr_MSG_EngineError, &Hooks::MSG_EngineError, reinterpret_cast<void**>(&originalMSG_EngineError));
+	MH_CreateHook(addr_LoadPlaylist, &Hooks::LoadPlaylist, reinterpret_cast<void**>(&originalLoadPlaylist));
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Hook WinAPI
@@ -80,6 +82,7 @@ void Hooks::InstallHooks()
 	// Enable Game hooks
 	MH_EnableHook(addr_CHLClient_FrameStageNotify);
 	MH_EnableHook(addr_CVEngineServer_IsPersistenceDataAvailable);
+	MH_EnableHook(addr_CServer_ConnectClient);
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Enable Netchan hooks
@@ -98,6 +101,7 @@ void Hooks::InstallHooks()
 	///////////////////////////////////////////////////////////////////////////////
     // Enabled Utility hooks
 	MH_EnableHook(addr_MSG_EngineError);
+	MH_EnableHook(addr_LoadPlaylist);
 }
 
 void Hooks::RemoveHooks()
@@ -112,6 +116,7 @@ void Hooks::RemoveHooks()
 	// Unhook Game Functions
 	MH_RemoveHook(addr_CHLClient_FrameStageNotify);
 	MH_RemoveHook(addr_CVEngineServer_IsPersistenceDataAvailable);
+	MH_RemoveHook(addr_CServer_ConnectClient);
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Unhook Netchan functions
@@ -143,6 +148,7 @@ void Hooks::RemoveHooks()
 	///////////////////////////////////////////////////////////////////////////////
 	// Unhook Utility functions
 	MH_RemoveHook(addr_MSG_EngineError);
+	MH_RemoveHook(addr_LoadPlaylist);
 
 	///////////////////////////////////////////////////////////////////////////////
 	// Unhook CBaseFileSystem functions.
